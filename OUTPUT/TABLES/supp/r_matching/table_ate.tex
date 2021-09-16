@@ -1,0 +1,32 @@
+
+\begin{table}
+\caption{Main effects, covariate balancing}
+\begin{center}
+\begin{tabular}{l c c c c}
+\toprule
+ & \multicolumn{2}{c}{Prop. Score} & \multicolumn{2}{c}{Entropy Bal.} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+ & Model 1 & Model 2 & Model 3 & Model 4 \\
+\midrule
+Treatment            & $0.03^{**}$   & $0.05^{***}$  & $0.03^{**}$   & $0.05^{***}$  \\
+                     & $(0.01)$      & $(0.02)$      & $(0.01)$      & $(0.02)$      \\
+Treat. x Independent &               & $-0.04^{*}$   &               & $-0.04^{*}$   \\
+                     &               & $(0.02)$      &               & $(0.02)$      \\
+Treat. x Republican  &               & $-0.03$       &               & $-0.03$       \\
+                     &               & $(0.02)$      &               & $(0.02)$      \\
+Independent          & $-0.08^{***}$ & $-0.06^{***}$ & $-0.08^{***}$ & $-0.06^{***}$ \\
+                     & $(0.01)$      & $(0.01)$      & $(0.01)$      & $(0.01)$      \\
+Republican           & $-0.13^{***}$ & $-0.12^{***}$ & $-0.14^{***}$ & $-0.12^{***}$ \\
+                     & $(0.01)$      & $(0.01)$      & $(0.01)$      & $(0.01)$      \\
+\midrule
+Num. Groups (Year)   & $12$          & $12$          & $12$          & $12$          \\
+R$^2$                & $0.03$        & $0.03$        & $0.03$        & $0.03$        \\
+Adj. R$^2$           & $0.03$        & $0.03$        & $0.03$        & $0.03$        \\
+Num. obs.            & $10677$       & $10677$       & $10677$       & $10677$       \\
+RMSE                 & $0.61$        & $0.61$        & $0.61$        & $0.61$        \\
+\bottomrule
+\multicolumn{5}{l}{\scriptsize{$^{***}p<0.01$; $^{**}p<0.05$; $^{*}p<0.1$}}
+\end{tabular}
+\label{table_ate_balance}
+\end{center}
+\end{table}

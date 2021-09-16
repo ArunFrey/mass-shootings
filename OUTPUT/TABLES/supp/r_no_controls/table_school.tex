@@ -1,0 +1,32 @@
+
+\begin{table}
+\caption{Effects by shooting site, no controls}
+\begin{center}
+\begin{tabular}{l c c c c}
+\toprule
+ & \multicolumn{2}{c}{No School} & \multicolumn{2}{c}{School} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+ & Model 1 & Model 2 & Model 3 & Model 4 \\
+\midrule
+Treatment               & $0.01$   & $0.03^{*}$    & $0.05^{**}$ & $0.12^{***}$  \\
+                        & $(0.01)$ & $(0.02)$      & $(0.02)$    & $(0.03)$      \\
+Treatment x Independent &          & $-0.03$       &             & $-0.15^{***}$ \\
+                        &          & $(0.02)$      &             & $(0.05)$      \\
+Treatment x Republican  &          & $-0.03$       &             & $-0.03$       \\
+                        &          & $(0.02)$      &             & $(0.06)$      \\
+Independent             &          & $-0.06^{***}$ &             & $-0.00$       \\
+                        &          & $(0.01)$      &             & $(0.03)$      \\
+Republican              &          & $-0.12^{***}$ &             & $-0.12^{***}$ \\
+                        &          & $(0.01)$      &             & $(0.03)$      \\
+\midrule
+Num. Groups (Year)      & $12$     & $12$          & $2$         & $2$           \\
+R$^2$                   & $0.01$   & $0.02$        & $0.01$      & $0.03$        \\
+Adj. R$^2$              & $0.01$   & $0.02$        & $0.01$      & $0.03$        \\
+Num. obs.               & $10827$  & $10827$       & $1422$      & $1422$        \\
+RMSE                    & $0.43$   & $0.42$        & $0.38$      & $0.38$        \\
+\bottomrule
+\multicolumn{5}{l}{\scriptsize{$^{***}p<0.01$; $^{**}p<0.05$; $^{*}p<0.1$}}
+\end{tabular}
+\label{table_school_no_controls}
+\end{center}
+\end{table}

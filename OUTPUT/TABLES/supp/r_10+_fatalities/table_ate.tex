@@ -1,0 +1,52 @@
+
+\begin{table}
+\caption{Effect of mass shootings on attitudes towards gun permits, only shootings with 10 or more fatalities}
+\begin{center}
+\begin{tabular}{l c c}
+\toprule
+ & Model 1 & Model 2 \\
+\midrule
+Treatment               & $0.025$        & $0.082^{**}$   \\
+                        & $(0.025)$      & $(0.034)$      \\
+Treatment x Independent &                & $-0.119^{**}$  \\
+                        &                & $(0.050)$      \\
+Treatment x Republican  &                & $-0.030$       \\
+                        &                & $(0.063)$      \\
+Independent             & $-0.069^{***}$ & $-0.035$       \\
+                        & $(0.024)$      & $(0.029)$      \\
+Republican              & $-0.133^{***}$ & $-0.123^{***}$ \\
+                        & $(0.031)$      & $(0.036)$      \\
+Age (std.)              & $0.046^{***}$  & $0.047^{***}$  \\
+                        & $(0.011)$      & $(0.011)$      \\
+Female                  & $0.087^{***}$  & $0.088^{***}$  \\
+                        & $(0.022)$      & $(0.022)$      \\
+U.S. born               & $-0.084^{***}$ & $-0.085^{***}$ \\
+                        & $(0.032)$      & $(0.032)$      \\
+White                   & $-0.003$       & $-0.002$       \\
+                        & $(0.029)$      & $(0.029)$      \\
+Other                   & $-0.010$       & $-0.008$       \\
+                        & $(0.043)$      & $(0.043)$      \\
+Suburban                & $-0.015$       & $-0.018$       \\
+                        & $(0.023)$      & $(0.024)$      \\
+Rural                   & $-0.115^{***}$ & $-0.116^{***}$ \\
+                        & $(0.037)$      & $(0.037)$      \\
+Education (std.)        & $0.009$        & $0.009$        \\
+                        & $(0.011)$      & $(0.011)$      \\
+Married                 & $-0.024$       & $-0.026$       \\
+                        & $(0.023)$      & $(0.023)$      \\
+Owns Gun                & $-0.147^{***}$ & $-0.147^{***}$ \\
+                        & $(0.026)$      & $(0.026)$      \\
+Coop. Interview         & $0.009$        & $0.007$        \\
+                        & $(0.064)$      & $(0.063)$      \\
+\midrule
+Num. Groups (Year)      & $3$            & $3$            \\
+R$^2$                   & $0.088$        & $0.091$        \\
+Adj. R$^2$              & $0.079$        & $0.081$        \\
+Num. obs.               & $1673$         & $1673$         \\
+RMSE                    & $0.429$        & $0.428$        \\
+\bottomrule
+\multicolumn{3}{l}{\scriptsize{$^{***}p<0.01$; $^{**}p<0.05$; $^{*}p<0.1$}}
+\end{tabular}
+\label{table_ate_10+_fatalities}
+\end{center}
+\end{table}
