@@ -25,8 +25,8 @@ The structure of the repository is as follows:
 ## Authors
 
 __Arun Frey__
-Arun Frey is a Postdoctoral Researcher with the Leverhulme Centre for Demographic Science, and a member of the Department of Sociology at the University of Oxford. His research interests include immigration and group conflict, inequality, and causal inference and computational social science. His work has appeared in the Proceedings of the National Academy of Sciences and the European Sociological Review. 
+Arun Frey is a Postdoctoral Researcher with the Leverhulme Centre for Demographic Science, and a member of the Department of Sociology at the University of Oxford. His research interests include immigration and group conflict, inequality, and causal inference and computational social science. His work has appeared in the _Proceedings of the National Academy of Sciences_ and the _European Sociological Review_. 
 
 __David S. Kirk__
-David Kirk is Professor in the Department of Sociology and Nuffield College at the University of Oxford as well as faculty associate of the Leverhulme Centre for Demographic Science. His recent book, Home Free, traces the effect of residential displacement among the formerly incarcerated in the wake of Hurricane Katrina. In other work, with collaborator Rob Sampson, he has launched a 5th survey wave of the Project on Human Development in Chicago Neighborhoods, to examine the correlates and consequences of gun violence over the life course over the last quarter century.
+David Kirk is Professor in the Department of Sociology and Nuffield College at the University of Oxford as well as faculty associate of the Leverhulme Centre for Demographic Science. His recent book, _Home Free_, traces the effect of residential displacement among the formerly incarcerated in the wake of Hurricane Katrina. In other work, with collaborator Rob Sampson, he has launched a 5th survey wave of the Project on _Human Development in Chicago Neighborhoods_, to examine the correlates and consequences of gun violence over the life course over the last quarter century.
 
