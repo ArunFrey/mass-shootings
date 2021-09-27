@@ -118,7 +118,7 @@ for(i in 1:nrow(shootings_overlap)){
 
 # for shootings with overlapping treatment dates, assign unit to most recent shooting only
 shooting_id <- left_join(shooting_id, shootings_overlap[, c("shooting_id", "case", "date_shooting", "location_1", "fatalities", 
-                                                            "school_shooting", "school_uni_shooting", "race_shooter")])
+                                                            "school_shooting", "school_uni_shooting")])
 
 shooting_id <- shooting_id %>% 
   mutate(days_since_shooting = date - date_shooting) %>% 

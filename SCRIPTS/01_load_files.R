@@ -10,7 +10,6 @@ theme_set(theme_minimal())
 
 # LOAD DATA ----
 gss_raw <- readRDS("DATA/RAW/gss/gss.rds")
-
 # uncomment for only shootings from Mother Jones
 #shootings <- read_csv("DATA/RAW/Mother Jones/MJ_Shootings_1982-2020.csv")
 # uncomment for shootings from Mother Jones, Stanford, and Violence Project

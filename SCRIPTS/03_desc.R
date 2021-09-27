@@ -161,5 +161,5 @@ g1 <- gss_event %>%
         panel.grid =  element_line(size = 0.1, colour = "grey90"),
         legend.position = "top")
 
-ggsave(g1, file = paste0(plots_path, "sample_plot.pdf"), width = 12, height = 7.5)
+ggsave(g1, file = paste0(plots_path, "sample_plot.jpeg"), dpi = "print", width = 12, height = 7.5)
 print(g1)
