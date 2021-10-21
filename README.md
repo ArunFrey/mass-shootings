@@ -20,6 +20,7 @@ The structure of the repository is as follows:
 * `03_desc.R`: generates descriptive statistics. 
 * `04_main.R`: generates the main results reported in the paper. 
 * `04_r_*`: each script re-estimates the main results but using a different specification. 
+* `05_plot.R`: generates all plots used in the main analysis and across all robustness checks. 
 
 
 ## Authors
